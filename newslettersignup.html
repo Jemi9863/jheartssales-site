@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>💌 Newsletter Signup | jheartssales</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="coquette-theme">
+  <header>
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="index.html">🏠 Home</a></li>
+        <li><a href="about.html">💖 About</a></li>
+        <li><a href="shop.html">🛍️ Shop</a></li>
+        <li><a href="gallery.html">🖼️ Gallery</a></li>
+        <li><a href="wishlist.html">💌 Wishlist</a></li>
+        <li><a href="contact.html">📞 Contact</a></li>
+        <li><a href="newsletter-signup.html">📧 Newsletter</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="newsletter-section">
+    <h1>📬 Get the Cutest Drops First 💖</h1>
+    <p>Subscribe to our pastel-perfect updates, sales, and exclusive glam art alerts! 🎀✨</p>
+
+    <form id="newsletterForm" class="newsletter-form">
+      <input type="email" id="emailInput" placeholder="Your email (e.g. barbie@gmail.com) 💌" required />
+      <button type="submit">🌷 Subscribe Now</button>
+    </form>
+
+    <div id="newsletterMessage" class="feedback-msg"></div>
+  </main>
+
+  <footer>
+    <p>🩰 jheartssales — Slaying the art scene one pastel at a time 💕</p>
+  </footer>
+
+  <script>
+    const form = document.getElementById('newsletterForm');
+    const message = document.getElementById('newsletterMessage');
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const email = document.getElementById('emailInput').value.trim();
+
+      if (email) {
+        message.textContent = "💖 You're officially on the glam list, bestie!";
+        form.reset();
+      } else {
+        message.textContent = "Please enter a valid email! ✨";
+      }
+    });
+  </script>
+</body>
+</html>
