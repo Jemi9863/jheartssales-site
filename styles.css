@@ -1,0 +1,144 @@
+/* 🌸 jheartssales Styles — Heavenly Coquette Pink Aesthetic 🌸 */
+
+body.coquette-theme {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, #fff1f8, #ffe6f0);
+  color: #b03060;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #e75480;
+  font-weight: 700;
+  text-align: center;
+}
+
+header {
+  background: #ffd6e8;
+  padding: 1rem 0;
+  box-shadow: 0 4px 10px rgba(255, 192, 203, 0.5);
+}
+
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar a {
+  color: #d63384;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.nav-bar a:hover {
+  color: #ff69b4;
+  text-shadow: 0 0 5px #ffc0cb;
+}
+
+main {
+  padding: 2rem;
+  background: #fffafc;
+}
+
+footer {
+  background: #ffe6f0;
+  color: #b03060;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+button {
+  background-color: #ff99cc;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(255, 182, 193, 0.4);
+}
+
+button:hover {
+  background-color: #ff69b4;
+}
+
+.glam-row {
+  font-size: 1.2rem;
+  background: #fff0f5;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(255, 182, 193, 0.5);
+  text-align: center;
+  font-weight: 500;
+  color: #d63384;
+}
+
+.gallery-section, .shop-section, .wishlist-section, .cart-section, .contact-section, .about-section, .shipping-section {
+  max-width: 1200px;
+  margin: auto;
+  background: #ffffffdd;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(255, 182, 193, 0.2);
+}
+
+.gallery-item, .shop-item, .wishlist-item, .cart-item {
+  border: 1px solid #ffc0cb;
+  border-radius: 16px;
+  padding: 1rem;
+  margin: 1rem;
+  background: #fffafc;
+  box-shadow: 0 4px 12px rgba(255, 182, 193, 0.3);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover, .shop-item:hover, .wishlist-item:hover, .cart-item:hover {
+  transform: scale(1.05);
+}
+
+img {
+  width: 100%;
+  border-radius: 12px;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.cart-count {
+  background: #ff69b4;
+  padding: 0.2rem 0.6rem;
+  border-radius: 50%;
+  font-size: 0.9rem;
+  color: white;
+  margin-left: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ffb6c1;
+  border-radius: 10px;
+  background: #fff0f5;
+  font-size: 1rem;
+  color: #b03060;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #ff69b4;
+  box-shadow: 0 0 6px #ff69b4;
+}

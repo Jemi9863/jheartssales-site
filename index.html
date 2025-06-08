@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jheartssales 🎀</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="main-nav">
+    <a href="index.html">🏠 Home</a>
+    <a href="about.html">💖 About</a>
+    <a href="shop.html">🛍️ Shop</a>
+    <a href="cart.html">🧺 Cart</a>
+    <a href="gallery.html">🖼️ Gallery</a>
+    <a href="contact.html">📞 Contact</a>
+    <a href="shipping.html">🚚 Shipping</a>
+  </nav>
+
+  <header class="main-header">
+    <h1>Welcome to Jheartssales 🎀</h1>
+    <p class="subtitle">Serving bows, gloss, and CEO slay vibes 💅✨</p>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Hey bestie 💖</h2>
+      <p>Step into the dreamiest art shop ever. Bows, glitter, and pink power everywhere! 💗🌸🖌️</p>
+      <button onclick="showMessage()">Click for a surprise 🎀</button>
+      <div id="message">You are glowing, girlypop 💕👛🧁</div>
+    </section>
+
+    <section class="highlight">
+      <h3>✨ Our Vibe ✨</h3>
+      <p>Heavenly • Coquette • Pure Pastel Pink • Adorable • Pretty • Aesthetic overload 💞💫</p>
+    </section>
+
+    <section class="featured">
+      <h3>Featured Art Cuties 🎨</h3>
+      <ul>
+        <li>💋 Heart Gloss Prints</li>
+        <li>🎀 Bow Collage Posters</li>
+        <li>🩰 Balletcore Art Sketches</li>
+        <li>💌 Sticker Sheets of Love</li>
+      </ul>
+    </section>
+
+    <section class="glam-extension">
+      <h3>More Sparkle, More Slay ✨</h3>
+      <div class='glam-rows'>
+        <div class='glam-row'>💗 Pink sparkles, gloss dreams, and cuteness overload! 🎀🩰👛</div>
+        <div class='glam-row'>💄 Art that's as fabulous as your lip gloss collection 💋🎨✨</div>
+        <div class='glam-row'>👛 Pastel vibes only — from bows to brushstrokes 💖🖌️</div>
+        <div class='glam-row'>🎀 Pretty posters that turn your room into a fairytale 🌸🧚‍♀️</div>
+        <div class='glam-row'>💌 Stickers for your journal, mirror, and soul 💫📝</div>
+        <div class='glam-row'>🧁 Every piece served with sweet cupcake energy 🍰💗</div>
+        <div class='glam-row'>🩰 Balletcore elegance in every artwork we drop 💅🌸</div>
+        <div class='glam-row'>🌷 Coquette core? We invented it 🎀✨</div>
+        <div class='glam-row'>👒 Sunday painting slays and tea-party palettes ☕🎨</div>
+        <div class='glam-row'>🌸 Pink petals, satin ribbons, dreamy doodles 💕🖍️</div>
+        <div class='glam-row'>🦢 Soft girls unite with angelcore masterpieces 💫🪽</div>
+        <div class='glam-row'>💖 Every print is CEO-approved for your mood board 📌✨</div>
+        <div class='glam-row'>🎨 Your daily dose of pretty, pastel, and perfect 💗🌷</div>
+        <div class='glam-row'>✨ Add glitter to your life with jheartssales 🛍️💘</div>
+        <div class='glam-row'>💅 This art is certified slay by the gloss gods 💄📸</div>
+        <div class='glam-row'>🧚‍♀️ Fairytale feels in every brushstroke and hue 🖌️🌸</div>
+        <div class='glam-row'>📮 Send love with coquette-cute sticker sets 💌🎀</div>
+        <div class='glam-row'>🎀 Tie your life together with art that sparkles 💫🩷</div>
+        <div class='glam-row'>🪞Reflections of beauty in every design 👛✨</div>
+        <div class='glam-row'>💗 Bubblegum-pink brilliance in every print 💘🍬</div>
+        
+        <!-- Glam extensions from 21 to 90 -->
+        " + Array.from({length: 70}, (_, i) => `        <div class='glam-row'>🌸 Glam extension #${i + 21} — all pastel slay and shimmer dreams 🎀💗✨</div>`).join('\n') + "
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 jheartssales | Made with gloss, bows, and big pink dreams 💗🎨</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
